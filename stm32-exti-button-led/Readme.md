@@ -45,7 +45,7 @@ Button
 
 ---
 
-## 🧪 How to Run
+## How to Run
 
 1. Open the `.ioc` file in **STM32CubeIDE**
 2. Connect your Nucleo-L432KC via USB
@@ -54,7 +54,7 @@ Button
 
 ---
 
-## 🔄 Debounce Logic
+## Debounce Logic
 
 Implemented in the `HAL_GPIO_EXTI_Callback()`:
 
