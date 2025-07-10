@@ -4,7 +4,7 @@ This project demonstrates the use of an external interrupt (EXTI) on the STM32 N
 
 ---
 
-## 🔧 Hardware Used
+## Hardware Used
 
 - **STM32 Nucleo-L432KC**
 - **Pushbutton** connected to pin **PA0**
@@ -16,7 +16,7 @@ Optional:
 
 ---
 
-## 🧠 Features
+## Features
 
 - **GPIO Interrupt (EXTI)** using HAL
 - **Software Debouncing** (200ms delay)
@@ -25,7 +25,7 @@ Optional:
 
 ---
 
-## 🛠️ Pin Configuration
+## in Configuration
 
 | Pin  | Mode           | Description           |
 |------|----------------|-----------------------|
@@ -36,7 +36,7 @@ Button pulls PA0 **low** on press. Internal pull-up is enabled in the CubeMX `.i
 
 ---
 
-## 💡 Circuit Diagram
+## Circuit Diagram
 
 Button
 [ ]──────┬────────> PA0 (EXTI0)
